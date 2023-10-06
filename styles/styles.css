@@ -1,0 +1,77 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+h1 {
+  width: 956px;
+  margin: 128px 319px 30px 125px;
+  font-size: 60px;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #121212;
+}
+
+.presentation {
+  width: 1150px;
+  height: 500px;
+  margin: 0 125px 150px;
+  padding: 379px 680px 40px 40px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  background-image: url(../resources/presentation_img.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.presentation p {
+  width: 430px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fff;
+}
+
+.aboutus {
+  width: 1048px;
+  margin-left: 128px;
+  margin-right: 224px;
+}
+
+.aboutus h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.aboutus p {
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  color: #121212;
+}
+
+.aboutus button {
+  margin-bottom: 150px;
+  width: 255px;
+  height: 67px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  background-color: #ad1818;
+  color: #ffffff;
+  cursor: pointer;
+}
