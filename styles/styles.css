@@ -75,3 +75,46 @@ h1 {
   color: #ffffff;
   cursor: pointer;
 }
+
+.projects_container {
+  width: 1150px;
+  margin: auto 125px;
+}
+
+.projects_container h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212;
+  font-size: 18px;
+  font-style: normal;
+}
+.project {
+  width: 100%;
+}
+
+.project__img {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 450px;
+}
+
+.project__name {
+  margin-bottom: 15px;
+  color: #121212;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.project__more {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
