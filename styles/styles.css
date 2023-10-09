@@ -26,7 +26,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.presentation p {
+.presentation__p {
   width: 430px;
   font-size: 20px;
   font-style: normal;
@@ -35,13 +35,13 @@ h1 {
   color: #fff;
 }
 
-.aboutus {
+.about {
   width: 1048px;
   margin-left: 128px;
   margin-right: 224px;
 }
 
-.aboutus h2 {
+.about__h2 {
   margin-bottom: 30px;
   font-size: 18px;
   font-style: normal;
@@ -51,7 +51,7 @@ h1 {
   color: #121212;
 }
 
-.aboutus p {
+.about__p {
   margin-bottom: 30px;
   font-size: 45px;
   font-style: normal;
@@ -60,7 +60,7 @@ h1 {
   color: #121212;
 }
 
-.aboutus button {
+.about__btn {
   margin-bottom: 150px;
   width: 255px;
   height: 67px;
