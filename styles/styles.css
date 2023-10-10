@@ -1,4 +1,5 @@
 body {
+  width: 1400px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -18,7 +19,8 @@ h1 {
   width: 1150px;
   height: 500px;
   margin: 0 125px 150px;
-  padding: 379px 680px 40px 40px;
+  position: relative;
+  position: relative;
   box-sizing: border-box;
   flex-shrink: 0;
   background-image: url(../resources/presentation_img.jpg);
@@ -28,6 +30,9 @@ h1 {
 
 .presentation__p {
   width: 430px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   font-size: 20px;
   font-style: normal;
   line-height: normal;
@@ -119,6 +124,8 @@ h1 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.6px;
+  text-decoration: none;
+  color: #ad1818;
 }
 
 .projects_container__watch_button {
@@ -142,4 +149,33 @@ h1 {
 .projects_container__watch_button:hover {
   background-color: #ad1818;
   color: #ffffff;
+}
+
+.services_container {
+  padding: 150px 125px;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.services__h2 {
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.service__img {
+  margin-bottom: 15px;
+}
+
+.service__p {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
 }
