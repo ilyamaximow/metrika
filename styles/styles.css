@@ -15,11 +15,27 @@ h1 {
   color: #121212;
 }
 
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
 .presentation {
   width: 1150px;
   height: 500px;
   margin: 0 125px 150px;
-  position: relative;
   position: relative;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -34,7 +50,6 @@ h1 {
   left: 40px;
   bottom: 40px;
   font-size: 20px;
-  font-style: normal;
   line-height: normal;
   letter-spacing: -0.6px;
   color: #fff;
@@ -48,18 +63,13 @@ h1 {
 
 .about__h2 {
   margin-bottom: 30px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
   color: #121212;
 }
 
 .about__p {
   margin-bottom: 30px;
   font-size: 45px;
-  font-style: normal;
+
   line-height: normal;
   letter-spacing: -1.35px;
   color: #121212;
@@ -73,7 +83,6 @@ h1 {
   box-sizing: border-box;
   border-radius: 5px;
   font-size: 20px;
-  font-style: normal;
   line-height: normal;
   letter-spacing: -0.6px;
   background-color: #ad1818;
@@ -88,13 +97,7 @@ h1 {
 
 .projects_container h2 {
   margin-bottom: 30px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
   color: #121212;
-  font-size: 18px;
-  font-style: normal;
 }
 .project {
   width: 100%;
@@ -109,18 +112,12 @@ h1 {
 .project__name {
   margin-bottom: 15px;
   color: #121212;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.9px;
 }
 
 .project__more {
   margin-bottom: 90px;
   display: block;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.6px;
@@ -139,7 +136,6 @@ h1 {
   text-align: center;
   line-height: 150px;
   font-size: 30px;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: -0.9px;
   text-decoration: none;
@@ -157,25 +153,18 @@ h1 {
   color: #ffffff;
 }
 
+.service:last-child {
+  margin-bottom: 150px;
+}
+
 .services__h2 {
   margin-bottom: 35px;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
 }
 
 .service__img {
   margin-bottom: 15px;
 }
 
-.service__p {
+.service__name {
   margin-bottom: 60px;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.9px;
 }
