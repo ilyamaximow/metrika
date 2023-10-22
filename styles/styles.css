@@ -1,4 +1,5 @@
 body {
+  width: 1400px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   background-color: #fff;
@@ -14,11 +15,26 @@ h1 {
   color: #121212;
 }
 
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
 .presentation {
   width: 1150px;
   height: 500px;
   margin: 0 125px 150px;
-  padding: 379px 680px 40px 40px;
+  position: relative;
   box-sizing: border-box;
   flex-shrink: 0;
   background-image: url(../resources/presentation_img.jpg);
@@ -26,10 +42,16 @@ h1 {
   background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
+.presentation__text {
+=======
 .presentation__p {
+>>>>>>> main
   width: 430px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   font-size: 20px;
-  font-style: normal;
   line-height: normal;
   letter-spacing: -0.6px;
   color: #fff;
@@ -37,26 +59,23 @@ h1 {
 
 .about {
   width: 1048px;
-  margin-left: 128px;
-  margin-right: 224px;
+  margin-left: 125px;
 }
 
 .about__h2 {
   margin-bottom: 30px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
   color: #121212;
 }
 
+<<<<<<< HEAD
+.about__text {
+=======
 .about__p {
+>>>>>>> main
   margin-bottom: 30px;
   font-size: 45px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -1.35px;
+  line-height: 136%;
+  letter-spacing: -1.3px;
   color: #121212;
 }
 
@@ -64,14 +83,96 @@ h1 {
   margin-bottom: 150px;
   width: 255px;
   height: 67px;
-  padding: 20px 40px;
-  box-sizing: border-box;
+  padding: 23px 40px;
   border-radius: 5px;
   font-size: 20px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.6px;
+  line-height: 110%;
+  letter-spacing: -0.05px;
   background-color: #ad1818;
   color: #ffffff;
   cursor: pointer;
+}
+
+.projects {
+  width: 1150px;
+  margin: auto 125px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+  color: #121212;
+}
+.project {
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.project__img {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 450px;
+}
+
+.project__name {
+  margin-bottom: 15px;
+  color: #121212;
+}
+
+.project__more {
+  display: block;
+  font-size: 20px;
+
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.projects_container__watch_button {
+  height: 153px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 150px;
+  border: 1px solid var(--Accent, #ad1818);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.projects_container__watch_button:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.services {
+  padding: 150px 128px 0px 128px;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.service {
+  margin-bottom: 60px;
+}
+.services__h2 {
+  margin-bottom: 35px;
+}
+
+.service__img {
+  margin-bottom: 13px;
+}
+
+.service__name {
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.service:nth-last-child(1) {
+  margin-bottom: 150px;
+  display: inline-block;
 }
