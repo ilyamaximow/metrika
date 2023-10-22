@@ -18,7 +18,6 @@ h1 {
 h2 {
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   letter-spacing: -0.6px;
   text-transform: uppercase;
@@ -27,7 +26,6 @@ h2 {
 h3 {
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   letter-spacing: -0.9px;
 }
@@ -44,7 +42,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.presentation__p {
+.presentation__text {
   width: 430px;
   position: absolute;
   left: 40px;
@@ -65,7 +63,7 @@ h3 {
   color: #121212;
 }
 
-.about__p {
+.about__text {
   margin-bottom: 30px;
   font-size: 45px;
   line-height: 136%;
@@ -87,12 +85,12 @@ h3 {
   cursor: pointer;
 }
 
-.projects_container {
+.projects {
   width: 1150px;
   margin: auto 125px;
 }
 
-.projects_container h2 {
+.projects__title {
   margin-bottom: 30px;
   color: #121212;
 }
@@ -115,7 +113,7 @@ h3 {
 .project__more {
   display: block;
   font-size: 20px;
-  font-weight: 400;
+
   line-height: normal;
   letter-spacing: -0.3px;
   text-decoration: none;
@@ -133,7 +131,6 @@ h3 {
   text-align: center;
   line-height: 150px;
   font-size: 30px;
-  font-weight: 400;
   letter-spacing: -0.9px;
   text-decoration: none;
   color: #ad1818;
@@ -144,7 +141,7 @@ h3 {
   color: #ffffff;
 }
 
-.services_container {
+.services {
   padding: 150px 128px 0px 128px;
   background-color: #121212;
   color: #ffffff;
@@ -162,8 +159,6 @@ h3 {
 }
 
 .service__name {
-  font-size: 30px;
-  font-weight: 400;
   line-height: 41px;
   letter-spacing: -0.03em;
   text-align: left;
