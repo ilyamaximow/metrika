@@ -13,90 +13,110 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-    <div class="presentation">
-      <p class="presentation__text">
-        Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
-        разработкой и реализацией дизайн-проектов
-      </p>
-    </div>
-
-    <div class="about">
-      <h2 class="about__title">о нас</h2>
-      <p class="about__text">
-        Студия основана в 2011 году. Полностью отдаемся проектированию и
-        реализации интерьеров. К нам обращаются за уютом, индивидуальными
-        решениями и практичностью. Находим конструктивные решения для каждого
-        интерьера, вплоть до каждой детали — нацелены на результат.
-      </p>
-      <button class="about__btn">Посмотреть услуги</button>
-    </div>
-
-    <div class="projects">
-      <h2 class="projects__title">проекты</h2>
-      <ul class="projects__container">
-        <li class="projects__item">
-          <img class="projects__img" src="resources/item_img1.jpg" alt="" />
-          <h3 class="projects__name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-          <a href="" class="projects__more">Подробнее →</a>
-        </li>
-
-        <li class="projects__item">
-          <img class="projects__img" src="resources/item_img2.jpg" alt="" />
-          <h3 class="projects__name">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-          <a href="" class="projects__more">Подробнее →</a>
-        </li>
-
-        <li class="projects__item">
-          <img class="projects__img" src="resources/item_img3.jpg" alt="" />
-          <h3 class="projects__name">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-          <a href="" class="projects__more">Подробнее →</a>
-        </li>
-      </ul>
-      <a href="" class="projects__watch-button">Смотреть все проекты</a>
-    </div>
-
-    <div class="services">
-      <h2 class="services__title">Услуги</h2>
-      <ul class="services__container">
-        <li class="services__item">
-          <img
-            class="services__img"
-            src="resources/service_img1.jpg"
-            alt="Планирование"
-          />
-          <h3 class="services__name">Планировочное решение — от 2500₽/м²</h3>
-        </li>
-
-        <li class="services__item">
-          <img
-            class="services__img"
-            src="resources/service_img2.jpg"
-            alt="Дизайн"
-          />
-          <h3 class="services__name">Дизайн-проект — от 3000₽/м²</h3>
-        </li>
-
-        <li class="services__item">
-          <img
-            class="services__img"
-            src="resources/service_img3.jpg"
-            alt="Надзор"
-          />
-          <h3 class="services__name">Авторский надзор — от 30 000₽ в месяц</h3>
-        </li>
-
-        <div class="services__item">
-          <img
-            class="services__img"
-            src="resources/service_img4.jpg"
-            alt="Комплектация"
-          />
-          <h3 class="services__name">
-            Комплектация — 5% от стоимости спецификации
-          </h3>
+    <header></header>
+    <main>
+      <section class="main-wrapper">
+        <h1 class="main-wrapper__title">
+          Современные и стильные<br />
+          интерьеры для комфортной жизни
+        </h1>
+        <div class="main-wrapper__we we">
+          <p class="we__text">
+            Мы - команда квалифицированных дизайнеров<br />и архитекторов,
+            занимающихся разработкой и<br />реализацией дизайн-проектов
+          </p>
         </div>
-      </ul>
-    </div>
+      </section>
+      <section class="about-wrapper">
+        <h2 class="about-wrapper__title">о нас</h2>
+        <p class="about-wrapper__info">
+          Студия основана в 2011 году. Полностью отдаемся<br />
+          проектированию и реализации интерьеров. К нам<br />
+          обращаются за уютом, индивидуальными<br />
+          решениями и практичностью. Находим<br />
+          конструктивные решения для каждого интерьера,<br />
+          вплоть до каждой детали — нацелены на результат.
+        </p>
+        <button class="about-wrapper__btn">Посмотреть услуги</button>
+      </section>
+
+      <section class="proj-wrapper">
+        <h2 class="proj-wrapper__title">проекты</h2>
+        <ul class="proj-wrapper__list">
+          <li class="proj-wrapper__item project">
+            <img
+              src="resources/item_img1.jpg"
+              alt="Красный диван"
+              class="project__img"
+            />
+            <h3 class="project__name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a href="" class="project__more">Подробнее →</a>
+          </li>
+          <li class="proj-wrapper__item project">
+            <img
+              src="resources/item_img2.jpg"
+              alt="Телевизор на стене"
+              class="project__img"
+            />
+            <h3 class="project__name">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+            <a href="" class="project__more">Подробнее →</a>
+          </li>
+          <li class="proj-wrapper__item project">
+            <img
+              src="resources/item_img3.jpg"
+              alt="Стол и лестница"
+              class="project__img"
+            />
+            <h3 class="project__name">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+            <a href="" class="project__more">Подробнее →</a>
+          </li>
+        </ul>
+        <a href="" class="proj-wrapper__all full-width-btn"
+          >Смотреть все проекты</a
+        >
+      </section>
+
+      <section class="services-wrapper">
+        <h2 class="services-wrapper__title">услуги</h2>
+        <ul class="services-wrapper__list">
+          <li class="services-wrapper__item service">
+            <img
+              src="resources/service_img1.jpg"
+              alt="Карандаш"
+              class="service__img"
+            />
+            <h3 class="sevice__name">Планировочное решение — от 2500₽/м²</h3>
+          </li>
+          <li class="services-wrapper__item service">
+            <img
+              src="resources/service_img2.jpg"
+              alt="Цветовая гамма"
+              class="service__img"
+            />
+            <h3 class="sevice__name">Дизайн-проект — от 3000₽/м²</h3>
+          </li>
+          <li class="services-wrapper__item service">
+            <img
+              src="resources/service_img3.jpg"
+              alt="Чертежи"
+              class="service__img"
+            />
+            <h3 class="sevice__name">Авторский надзор — от 30 000₽ в месяц</h3>
+          </li>
+          <li class="services-wrapper__item service">
+            <img
+              src="resources/service_img4.jpg"
+              alt="Склад"
+              class="service__img"
+            />
+            <h3 class="sevice__name">
+              Комплектация — 5% от стоимости спецификации
+            </h3>
+          </li>
+        </ul>
+      </section>
+      <!-- <section></section> -->
+    </main>
+    <footer></footer>
   </body>
 </html>

@@ -1,174 +1,197 @@
-body {
-  font-family: "Manrope", sans-serif;
-  font-weight: 400;
-  background-color: #fff;
-}
+/* ОБЩАЯ ЧАСТЬ */
 
+h1,
+h2,
+h3,
+p,
+a,
 button {
-  font-family: "Manrope", sans-serif;
-  font-weight: 400;
-}
-
-h1 {
-  width: 956px;
-  margin: 128px 319px 30px 125px;
-  font-size: 60px;
+  font-family: Manrope;
   font-style: normal;
-  line-height: 60px;
-  letter-spacing: -1.8px;
-  color: #121212;
+  font-weight: 400;
+  line-height: normal;
 }
 
 h2 {
   font-size: 18px;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.6px;
   text-transform: uppercase;
+  letter-spacing: -0.54px;
 }
 
 h3 {
   font-size: 30px;
-  font-style: normal;
-  line-height: normal;
+}
+
+.full-width-btn,
+h3 {
   letter-spacing: -0.9px;
 }
 
-.presentation {
-  width: 1150px;
-  height: 500px;
-  margin: 0 125px 150px;
-  position: relative;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  background-image: url(../resources/presentation_img.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+.about-wrapper__info {
+  letter-spacing: -1.35px;
 }
 
-.presentation__text {
-  width: 430px;
+.main-wrapper__title {
+  letter-spacing: -1.8px;
+}
+
+.we__text,
+.about-wrapper__btn,
+.project__more {
+  letter-spacing: -0.6px;
+}
+
+/* ГЛАВНАЯ ЧАСТЬ */
+
+.main-wrapper {
+  padding: 128px 0 0 125px;
+}
+
+.main-wrapper__title {
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+}
+
+.main-wrapper__we {
+  width: 1150px;
+  height: 500px;
+  background-image: url(../resources/presentation_img.jpg);
+}
+
+.we {
+  position: relative;
+}
+
+.we__text {
   position: absolute;
   left: 40px;
   bottom: 40px;
   font-size: 20px;
   line-height: normal;
-  letter-spacing: -0.6px;
   color: #fff;
 }
 
-.about {
-  width: 1048px;
-  margin-left: 125px;
+/* О НАС */
+
+.about-wrapper {
+  padding: 150px 0 0 125px;
 }
 
-.about__title {
+.about-wrapper__title {
   margin-bottom: 30px;
   color: #121212;
 }
 
-.about__text {
-  margin-bottom: 30px;
+.about-wrapper__info {
+  margin-bottom: 26px;
   font-size: 45px;
-  line-height: 136%;
-  letter-spacing: -1.3px;
-  color: #121212;
+  line-height: normal;
+  color: var(--Text, #121212);
 }
 
-.about__btn {
-  margin-bottom: 150px;
-  width: 255px;
-  height: 67px;
-  padding: 23px 40px;
+.about-wrapper__btn {
+  box-sizing: border-box;
+  display: inline-flex;
+  padding: 20px 40px;
+  align-items: flex-start;
+  gap: 10px;
   border-radius: 5px;
-  font-size: 20px;
-  line-height: 110%;
-  letter-spacing: -0.6px;
-  background-color: #ad1818;
+  background-color: var(--Accent, #ad1818);
   color: #ffffff;
+  line-height: normal;
+  font-size: 20px;
   cursor: pointer;
 }
 
-.projects {
+/* ПРОЕКТЫ */
+
+.proj-wrapper {
   width: 1150px;
-  margin: auto 125px;
+  padding: 150px 0 0 125px;
 }
 
-.projects__title {
+.proj-wrapper__title {
   margin-bottom: 30px;
   color: #121212;
 }
-.projects__item {
-  width: 100%;
+
+.proj-wrapper__item {
   margin-bottom: 90px;
 }
 
-.projects__img {
-  margin-bottom: 14px;
-  width: 100%;
-  height: 450px;
+.project {
+  width: 1150px;
 }
 
-.projects__name {
+.project__img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.project__name {
   margin-bottom: 15px;
   color: #121212;
 }
 
-.projects__more {
-  display: block;
+.project__more {
   font-size: 20px;
   line-height: normal;
-  letter-spacing: -0.3px;
-  text-decoration: none;
   color: #ad1818;
+  text-decoration: none;
 }
 
-.projects__watch-button {
-  height: 153px;
-  width: 100%;
-  box-sizing: border-box;
+.proj-wrapper__all {
+  margin-bottom: 148px;
+}
+
+.full-width-btn {
+  padding: 56px 0px;
   display: block;
-  margin-bottom: 150px;
+  box-sizing: border-box;
+  width: 100%;
   border: 1px solid var(--Accent, #ad1818);
   border-radius: 5px;
-  text-align: center;
-  line-height: 150px;
   font-size: 30px;
-  letter-spacing: -0.9px;
+  text-align: center;
+  line-height: normal;
+  color: var(--Accent, #ad1818);
   text-decoration: none;
-  color: #ad1818;
 }
 
-.projects__watch-button:hover {
-  background-color: #ad1818;
-  color: #ffffff;
+.full-width-btn:hover {
+  background: var(--Accent, #ad1818);
+  color: #fff;
 }
 
-.services {
-  padding: 150px 128px 0px 128px;
+/* УСЛУГИ */
+
+.services-wrapper {
+  padding: 151px 0 150px 125px;
+  min-width: 1400px;
   background-color: #121212;
+}
+
+.services-wrapper__title {
+  margin-left: 2px;
+  margin-bottom: 35px;
   color: #ffffff;
 }
 
-.services__title {
-  margin-bottom: 35px;
-}
-
-.services__item {
+.services-wrapper__item {
   margin-bottom: 60px;
 }
 
-.services__img {
-  margin-bottom: 13px;
+.services-wrapper__item:nth-last-child(1) {
+  margin-bottom: 0px;
 }
 
-.services__name {
-  line-height: 41px;
-  letter-spacing: -0.03em;
-  text-align: left;
+.service__img {
+  margin-bottom: 12px;
 }
 
-.services__item:nth-last-child(1) {
-  margin-bottom: 150px;
-  display: inline-block;
+.sevice__name {
+  margin-left: 4px;
+  color: #ffffff;
 }
