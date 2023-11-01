@@ -1,4 +1,7 @@
 /* ОБЩАЯ ЧАСТЬ */
+html {
+  scroll-behavior: smooth;
+}
 
 h1,
 h2,
@@ -23,38 +26,69 @@ h3 {
 }
 
 .full-width-btn,
-h3 {
+h3,
+.full-img__text,
+.contact__link {
   letter-spacing: -0.9px;
 }
 
-.about-wrapper__info {
+.about__info {
   letter-spacing: -1.35px;
 }
 
-.main-wrapper__title {
+.main__title {
   letter-spacing: -1.8px;
 }
 
 .we__text,
-.about-wrapper__btn,
-.project__more {
+.about__btn,
+.project__more,
+.footer__title {
   letter-spacing: -0.6px;
+}
+
+/* ХЕДЕР */
+
+.nav {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 125px 0;
+}
+
+.links__item,
+.footer__link {
+  margin-left: 57px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #121212;
+  text-decoration: none;
+  letter-spacing: -0.54px;
+}
+
+.links__item:first-child {
+  margin-left: 0;
+}
+
+.links__item:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 /* ГЛАВНАЯ ЧАСТЬ */
 
-.main-wrapper {
-  padding: 128px 0 0 125px;
+.main {
+  padding: 67px 0 0 125px;
 }
 
-.main-wrapper__title {
+.main__title {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
 }
 
-.main-wrapper__we {
+.main__we {
   width: 1150px;
   height: 500px;
   background-image: url(../resources/presentation_img.jpg);
@@ -75,23 +109,23 @@ h3 {
 
 /* О НАС */
 
-.about-wrapper {
+.about {
   padding: 150px 0 0 125px;
 }
 
-.about-wrapper__title {
+.about__title {
   margin-bottom: 30px;
   color: #121212;
 }
 
-.about-wrapper__info {
-  margin-bottom: 26px;
+.about__info {
+  margin-bottom: 30px;
   font-size: 45px;
   line-height: normal;
   color: var(--Text, #121212);
 }
 
-.about-wrapper__btn {
+.about__btn {
   box-sizing: border-box;
   display: inline-flex;
   padding: 20px 40px;
@@ -107,17 +141,17 @@ h3 {
 
 /* ПРОЕКТЫ */
 
-.proj-wrapper {
+.projects {
   width: 1150px;
   padding: 150px 0 0 125px;
 }
 
-.proj-wrapper__title {
+.projects__title {
   margin-bottom: 30px;
   color: #121212;
 }
 
-.proj-wrapper__item {
+.projects__item {
   margin-bottom: 90px;
 }
 
@@ -142,7 +176,7 @@ h3 {
   text-decoration: none;
 }
 
-.proj-wrapper__all {
+.projects__all {
   margin-bottom: 148px;
 }
 
@@ -167,23 +201,23 @@ h3 {
 
 /* УСЛУГИ */
 
-.services-wrapper {
+.services {
   padding: 151px 0 150px 125px;
   min-width: 1400px;
   background-color: #121212;
 }
 
-.services-wrapper__title {
+.services__title {
   margin-left: 2px;
   margin-bottom: 35px;
   color: #ffffff;
 }
 
-.services-wrapper__item {
+.services__item {
   margin-bottom: 60px;
 }
 
-.services-wrapper__item:nth-last-child(1) {
+.services__item:nth-last-child(1) {
   margin-bottom: 0px;
 }
 
@@ -194,4 +228,101 @@ h3 {
 .sevice__name {
   margin-left: 4px;
   color: #ffffff;
+}
+
+/* БОЛЬШОЕ ИЗОБРАЖЕНИЕ */
+
+.full-img {
+  position: relative;
+  width: 100%;
+  height: 717px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url(../resources/fullwidth.png);
+}
+
+.full-img__text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* КОНТАКТЫ */
+
+.contacts {
+  padding: 186px 0 128px 124px;
+  position: relative;
+}
+
+.contacts__title {
+  margin-bottom: 32px;
+  color: #121212;
+}
+
+.contacts__title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 120px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../resources/phone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact__link {
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+}
+
+.contact__link_tel {
+  text-decoration: none;
+}
+
+.contact__link_mail {
+  opacity: 0.5;
+  text-decoration: none;
+  border-bottom: 1px solid #121212;
+  letter-spacing: -1.8px;
+}
+
+/* ФУТЕР */
+
+.footer {
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 30px;
+  background-color: #121212;
+}
+
+.footer__links {
+  display: block;
+  margin-bottom: 88px;
+  margin-left: 470px;
+}
+
+.footer__item {
+  display: inline-block;
+}
+
+.footer__link {
+  margin: 0 51px 0 0;
+  letter-spacing: -0.54px;
+  color: #ffffff;
+}
+
+.footer__title {
+  font-size: 20px;
+  line-height: normal;
+  color: #ffffff;
+  opacity: 0.5;
+  text-transform: none;
+  text-align: center;
 }

@@ -13,23 +13,39 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- <div class="nav">
+        <a href="" class="nav__logo">
+          <img
+            src="resources/logo.jpg"
+            alt="логотип метрики"
+            class="nav__img"
+          />
+        </a>
+        <div class="links nav__links">
+          <a href="#about" class="links__item">о нас</a>
+          <a href="#projects" class="links__item"> проекты</a>
+          <a href="#services" class="links__item">услуги</a>
+          <a href="#contacts" class="links__item">контакты</a>
+        </div>
+      </div> -->
+    </header>
     <main>
-      <section class="main-wrapper">
-        <h1 class="main-wrapper__title">
+      <section class="main">
+        <h1 class="main__title">
           Современные и стильные<br />
           интерьеры для комфортной жизни
         </h1>
-        <div class="main-wrapper__we we">
+        <div class="main__we we">
           <p class="we__text">
             Мы - команда квалифицированных дизайнеров<br />и архитекторов,
             занимающихся разработкой и<br />реализацией дизайн-проектов
           </p>
         </div>
       </section>
-      <section class="about-wrapper">
-        <h2 class="about-wrapper__title">о нас</h2>
-        <p class="about-wrapper__info">
+      <section class="about">
+        <h2 id="about" class="about__title">о нас</h2>
+        <p class="about__info">
           Студия основана в 2011 году. Полностью отдаемся<br />
           проектированию и реализации интерьеров. К нам<br />
           обращаются за уютом, индивидуальными<br />
@@ -37,13 +53,13 @@
           конструктивные решения для каждого интерьера,<br />
           вплоть до каждой детали — нацелены на результат.
         </p>
-        <button class="about-wrapper__btn">Посмотреть услуги</button>
+        <button class="about__btn">Посмотреть услуги</button>
       </section>
 
-      <section class="proj-wrapper">
-        <h2 class="proj-wrapper__title">проекты</h2>
-        <ul class="proj-wrapper__list">
-          <li class="proj-wrapper__item project">
+      <section class="projects">
+        <h2 id="projects" class="projects__title">проекты</h2>
+        <ul class="projects__list">
+          <li class="projects__item project">
             <img
               src="resources/item_img1.jpg"
               alt="Красный диван"
@@ -52,7 +68,7 @@
             <h3 class="project__name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <a href="" class="project__more">Подробнее →</a>
           </li>
-          <li class="proj-wrapper__item project">
+          <li class="projects__item project">
             <img
               src="resources/item_img2.jpg"
               alt="Телевизор на стене"
@@ -61,7 +77,7 @@
             <h3 class="project__name">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
             <a href="" class="project__more">Подробнее →</a>
           </li>
-          <li class="proj-wrapper__item project">
+          <li class="projects__item project">
             <img
               src="resources/item_img3.jpg"
               alt="Стол и лестница"
@@ -71,15 +87,13 @@
             <a href="" class="project__more">Подробнее →</a>
           </li>
         </ul>
-        <a href="" class="proj-wrapper__all full-width-btn"
-          >Смотреть все проекты</a
-        >
+        <a href="" class="projects__all full-width-btn">Смотреть все проекты</a>
       </section>
 
-      <section class="services-wrapper">
-        <h2 class="services-wrapper__title">услуги</h2>
-        <ul class="services-wrapper__list">
-          <li class="services-wrapper__item service">
+      <section class="services">
+        <h2 id="services" class="services__title">услуги</h2>
+        <ul class="services__list">
+          <li class="services__item service">
             <img
               src="resources/service_img1.jpg"
               alt="Карандаш"
@@ -87,7 +101,7 @@
             />
             <h3 class="sevice__name">Планировочное решение — от 2500₽/м²</h3>
           </li>
-          <li class="services-wrapper__item service">
+          <li class="services__item service">
             <img
               src="resources/service_img2.jpg"
               alt="Цветовая гамма"
@@ -95,7 +109,7 @@
             />
             <h3 class="sevice__name">Дизайн-проект — от 3000₽/м²</h3>
           </li>
-          <li class="services-wrapper__item service">
+          <li class="services__item service">
             <img
               src="resources/service_img3.jpg"
               alt="Чертежи"
@@ -103,7 +117,7 @@
             />
             <h3 class="sevice__name">Авторский надзор — от 30 000₽ в месяц</h3>
           </li>
-          <li class="services-wrapper__item service">
+          <li class="services__item service">
             <img
               src="resources/service_img4.jpg"
               alt="Склад"
@@ -115,8 +129,49 @@
           </li>
         </ul>
       </section>
-      <!-- <section></section> -->
+      <!-- <div class="full-img">
+        <p class="full-img__text">
+          Проект Двухкомнатаной<br />
+          квартиры в ЖК Лесной Пейзаж
+        </p>
+      </div>
+
+      <section class="contacts">
+        <h2 id="contacts" class="contacts__title">Контакты</h2>
+        <div class="contact contacts__links">
+          <p class="contact__link">
+            <a class="contact__link contact__link_tel" href="tel:+79358954535"
+              >+7 935 895-45-35</a
+            >
+          </p>
+          <p class="contact__link">
+            <a
+              class="contact__link contact__link_mail"
+              href="mailto:hello@mail.com"
+              >hello@mail.com</a
+            >
+          </p>
+        </div>
+      </section> -->
     </main>
-    <footer></footer>
+    <footer>
+      <!-- <div class="footer">
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="#about" class="footer__link">о нас</a>
+          </li>
+          <li class="footer__item">
+            <a href="#projects" class="footer__link">проекты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">услуги</a>
+          </li>
+          <li class="footer__item">
+            <a href="#contacts" class="footer__link">контакты</a>
+          </li>
+        </ul>
+        <h2 class="footer__title">студия дизайна интерьера Метрика — 2023</h2>
+      </div> -->
+    </footer>
   </body>
 </html>
