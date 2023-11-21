@@ -36,24 +36,33 @@ h3,
   letter-spacing: -1.35px;
 }
 
-.main__title {
+.primary__title {
   letter-spacing: -1.8px;
 }
 
-.main__text,
+.primary__text,
 .about__btn,
 .project__more,
 .footer__title {
   letter-spacing: -0.6px;
 }
 
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+}
+
 /* ХЕДЕР */
 
 .header {
-  width: 1150px;
+  padding-top: 33px;
+}
+
+.nav-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 33px 125px 0;
 }
 
 .nav__item,
@@ -77,25 +86,25 @@ h3,
 
 /* ГЛАВНАЯ ЧАСТЬ */
 
-.main {
-  padding: 67px 0 0 125px;
+.primary {
+  padding-top: 67px;
 }
 
-.main__title {
+.primary__title {
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
 }
 
-.main__box {
+.primary__box {
   width: 1150px;
   height: 500px;
   background-image: url(../resources/presentation_img.jpg);
   position: relative;
 }
 
-.main__text {
+.primary__text {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -107,7 +116,7 @@ h3,
 /* О НАС */
 
 .about {
-  padding: 150px 0 0 125px;
+  padding-top: 150px;
 }
 
 .about__title {
@@ -116,7 +125,7 @@ h3,
 }
 
 .about__info {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-size: 45px;
   line-height: normal;
   color: var(--Text, #121212);
@@ -139,8 +148,7 @@ h3,
 /* ПРОЕКТЫ */
 
 .projects {
-  width: 1150px;
-  padding: 150px 0 0 125px;
+  padding-top: 150px;
 }
 
 .projects__title {
@@ -174,7 +182,7 @@ h3,
 }
 
 .projects__all {
-  margin-bottom: 148px;
+  margin-bottom: 149px;
 }
 
 .full-width-btn {
@@ -199,7 +207,7 @@ h3,
 /* УСЛУГИ */
 
 .services {
-  padding: 151px 0 150px 125px;
+  padding: 151px 0 150px 0;
   min-width: 1400px;
   background-color: #121212;
 }
@@ -250,21 +258,21 @@ h3,
 /* КОНТАКТЫ */
 
 .contacts {
-  padding: 186px 0 128px 124px;
-  position: relative;
+  padding: 186px 0 128px 0;
 }
 
 .contacts__title {
   margin-bottom: 32px;
   color: #121212;
+  position: relative;
 }
 
 .contacts__title::before {
   content: "";
   display: block;
   position: absolute;
-  top: 150px;
-  left: 120px;
+  bottom: 36px;
+  left: -5px;
   width: 24px;
   height: 24px;
   background-image: url(../resources/phone.png);
@@ -293,16 +301,18 @@ h3,
 /* ФУТЕР */
 
 .footer {
-  width: 100%;
-  padding-top: 65px;
+  padding-top: 63px;
   padding-bottom: 30px;
   background-color: #121212;
 }
 
+.test {
+  text-align: center;
+}
+
 .footer__links {
-  display: block;
-  margin-bottom: 88px;
-  margin-left: 470px;
+  display: inline-block;
+  margin: 0 auto 88px auto;
 }
 
 .footer__item {
@@ -310,13 +320,16 @@ h3,
 }
 
 .footer__link {
-  margin: 0 51px 0 0;
+  margin: 0 32px 0 20px;
   letter-spacing: -0.54px;
   color: #ffffff;
 }
 
+/* .footer__link:nth-last-child(3) {
+  margin-right: 0;
+} */
+
 .footer__title {
-  margin-left: 23px;
   font-size: 20px;
   line-height: normal;
   color: #ffffff;
