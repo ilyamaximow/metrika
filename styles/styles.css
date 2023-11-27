@@ -92,6 +92,7 @@ h3,
 
 .primary__title {
   margin-bottom: 30px;
+  width: 956px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
@@ -105,6 +106,7 @@ h3,
 }
 
 .primary__text {
+  width: 430px;
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -125,6 +127,7 @@ h3,
 }
 
 .about__info {
+  width: 1048px;
   margin-bottom: 25px;
   font-size: 45px;
   line-height: normal;
@@ -248,17 +251,19 @@ h3,
 }
 
 .full-img__text {
+  width: 443px;
   position: absolute;
   left: 125px;
   bottom: 58px;
   font-size: 30px;
   color: #ffffff;
+  text-transform: none;
 }
 
 /* КОНТАКТЫ */
 
 .contacts {
-  padding: 186px 0 128px 0;
+  padding: 186px 15px 128px 15px;
 }
 
 .contacts__title {
